@@ -1,0 +1,26 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "kholani space is showcase for shames kholani",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamskholani2020/space.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamskholani2020/space/issues"
+  },
+  "homepage": "https://github.com/shamskholani2020/space#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
