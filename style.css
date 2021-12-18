@@ -1,0 +1,45 @@
+.wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-demo {
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.mainStyle {
+    font-family: 'Poppins' monospace;
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-family: 'Poppins' monospace;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.image {
+    border-radius: 20px;
+}
