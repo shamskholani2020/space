@@ -1,6 +1,6 @@
 {
-    "name": "kholani_showcase",
-    "short_name": "kholani_showcase",
+    "name": "app",
+    "short_name": "app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
